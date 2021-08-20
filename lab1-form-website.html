@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Login Form</title>
+ <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="This is the login form with details">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+</head>
+<body>
+<h1>Login Form</h1>
+<form action="" method="POST">
+<div class="row1">
+	 <label for="name">Name:</label>
+	 <input type="text" name="name" class="name" id="name" 
+	 placeholder="Enter your Name"  maxlength="25" required>
+</div><br>
+<div class="row2">
+	 <label for="email">Email Id:</label>
+	 <input type="text" name="email" class="email" id="email" 
+	 value="test@gmail.com" autofocus>
+</div><br>
+<div class="row3">
+	 <label for="pwd">Password:</label>
+	 <input type="password" name="pwd" class="pwd" id="pwd" 
+	 placeholder="Enter your Password" maxlength="6" >
+</div><br><hr><br>
+<div class="row4">
+<label for="category">Category</label>
+	 <select name="category" id="category">
+	 <option value="student">Student</option>
+	 <option value="employee" >Employee</option>
+	 <option value="freelancer" selected>Freelancer</option>
+</select>
+</div><br>
+<div class="row5">
+	 <label for="event">Event date</label>
+	 <input type="date" name="date" id="event" >
+</div>
+<div class="row6">
+<p>Select a tickets</p>
+	 <input type="radio" name="ticket" id="tick1" >
+	 <label for="tick1">1 ticket</label>
+	 <br>
+	 <input type="radio" name="ticket" id="tick2" checked>
+	 <label for="tick2">2 ticket</label>
+	 <br>
+	 <input type="radio" name="ticket" id="tick3" >
+	 <label for="tick3">3 ticket</label>
+</div>
+<div class="row7">
+<p>If you choose online payment,check the payment box</p>
+	 <label for="pay">Payment</label>
+	 <input type="checkbox" name="payment" id="pay" >
+</div><br>
+<div class="row8">
+	 <label for="note">Notes:</label>
+	 <textarea type="text" name="note" id="note">Enter your Message</textarea>
+</div><br>
+<div class="row9">
+	 <input type="reset" value="Reset">					
+	<input type="submit" name="Submit" value="Submit"> 
+     </div> 
+</form>
+</div>
+</body>
